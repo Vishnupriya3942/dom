@@ -10,17 +10,55 @@
         
         }
         .container{
-            background-image: url(./asserts/3729823.jpg);
+            position: relative;
+            background-image: url(./asserts/3614856.jpg);
             height: 100vh;
+            width: 100%;
             background-size: contain;
+            
+        .mini{
+            position: absolute;
+            display: flex;
+            bottom: 20px;
+            right: 20px;
         }
-        
+        .mini img{
+            width: 80px;
+            height: 70px;
+        }
+
+        #arrow1{
+            position: absolute;
+            width: 70px;
+            height: 40px;
+            top: 50%;
+            
+        }
+        #arrow2{
+            position: absolute;
+            width: 70px;
+            height: 40px;
+            right: 0;
+            top: 50%;
+            transform: rotateY(180deg);
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="arrow">
+            <img id="arrow1" src="https://th.bing.com/th/id/OIP.5TY_YXhcOAOwqngBdoMYTAHaGB?w=262&h=213&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+            <img id="arrow2" src="https://th.bing.com/th/id/OIP.5TY_YXhcOAOwqngBdoMYTAHaGB?w=262&h=213&c=7&r=0&o=5&dpr=1.3&pid=1.7">
 
-    </div>
+        </div>
+        <div class="mini">
+            <img src="./asserts/12767828.jpg" alt="Loading">
+            <img src="./asserts/12767890 (2).jpg" alt="Loading">
+            <img src="./asserts/1469433.jpg" alt="Loading">
+        </div>
+
+
+    
     
 </body>
 </html>
